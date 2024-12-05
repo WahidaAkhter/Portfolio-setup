@@ -28,12 +28,12 @@
     <!-- font end -->
     <title>Portfolio</title>
   </head>
-  <body
-    class="bg-[#000000] text-white manrope-font px-[100px]"
-  >
+  <body class="bg-[#000000] text-white manrope-font px-[100px]">
     <header class="">
       <!-- navbar start -->
-      <nav class="py-5 mx-5 flex justify-between items-center md:pt-5 lg:py-8">
+      <nav
+        class="py-5 mx-2 flex justify-between md:items-center md:pt-5 lg:py-8"
+      >
         <div class="logo">
           <h1 class="font-bold text-2xl">LOGO</h1>
         </div>
@@ -77,10 +77,10 @@
       <!-- banner section -->
 
       <section
-        class="banner flex flex-col-reverse md:flex-row items-center justify-between mt-5 md:my-16 min-h-72 md:max-h-96"
+        class="banner flex flex-col-reverse md:flex-row items-center justify-between md:mt-5 md:my-16 min-h-72 md:max-h-96"
       >
         <!-- description + tittle -->
-        <div class="max-w-lg px-3 gap-3">
+        <div class="max-w-lg md:px-3 gap-3">
           <h1 class="text-[#797C86] font-medium">Web Developer</h1>
           <h1 class="montagu-slab-font text-5xl">
             HI! THIS IS <br />
@@ -127,14 +127,18 @@
           <div
             class="absolute bottom-0 left-0 bg-gradient-to-r from-black to-[#2c2c2d] h-[343px] w-[488px] rounded-l-full"
           ></div>
-          <img class="absolute bottom-0 left-0 w-full h-[488px] pr-28" src="/boy.png" alt="" />
+          <img
+            class="absolute bottom-0 left-0 w-full h-[488px] pr-28"
+            src="/boy.png"
+            alt=""
+          />
         </div>
         <!-- banner image end -->
       </section>
       <!-- banner section end -->
 
       <!-- specialities section -->
-      <section class="my-specialities mt-10 px-2 md:mt-24">
+      <section class="my-specialities mt-10 md:px-2 md:mt-24">
         <!-- specialities -->
         <div class="text-center gap-2">
           <!-- Title -->
@@ -148,7 +152,7 @@
         <!-- card section -->
         <div class="grid grid-cols-2 gap-5 md:grid-cols-4 md:gap-8 mt-12">
           <!-- Card 1 -->
-          <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
+          <div class="bg-gray-800 p-2 md:p-6 rounded-lg shadow-md text-center">
             <img
               src="./icons/icon1.png"
               alt="Front-End Icon"
@@ -161,7 +165,7 @@
             </p>
           </div>
           <!-- Card 2 -->
-          <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
+          <div class="bg-gray-800 p-2 md:p-6 rounded-lg shadow-md text-center">
             <img
               src="/icons/icon2.png"
               alt="Back-End Icon"
@@ -174,7 +178,7 @@
             </p>
           </div>
           <!-- Card 3 -->
-          <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
+          <div class="bg-gray-800 p-2 md:p-6 rounded-lg shadow-md text-center">
             <img
               src="/icons/icon3.png"
               alt="Full-Stack Icon"
@@ -188,7 +192,7 @@
             </p>
           </div>
           <!-- Card 4 -->
-          <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
+          <div class="bg-gray-800 p-2 md:p-6 rounded-lg shadow-md text-center">
             <img
               src="icons/icon4.png"
               alt="Web Security Icon"
@@ -200,7 +204,8 @@
               threats like data breaches and attacks.
             </p>
           </div>
-          <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
+          <!-- card 5 -->
+          <div class="bg-gray-800 p-2 md:p-6 rounded-lg shadow-md text-center">
             <img
               src="icons/icon5.png"
               alt="E-commerce Development icon"
@@ -212,7 +217,8 @@
               buying and selling products or services.
             </p>
           </div>
-          <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
+          <!-- card 6 -->
+          <div class="bg-gray-800 p-2 md:p-6 rounded-lg shadow-md text-center">
             <img
               src="icons/cloud.png"
               alt="Cloud-Based Icon"
@@ -225,10 +231,11 @@
               databases.
             </p>
           </div>
-          <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
+          <!-- card 7 -->
+          <div class="bg-gray-800 p-2 md:p-6 rounded-lg shadow-md text-center">
             <img
               src="icons/icon7.png"
-              alt="Web Security Icon"
+              alt="Web Apps Icon"
               class="w-12 h-12 mx-auto mb-4"
             />
             <h3 class="text-xl font-semibold">Progressive Web Apps</h3>
@@ -237,10 +244,11 @@
               best features of websites and native apps.
             </p>
           </div>
-          <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
+          <!-- card 8 -->
+          <div class="bg-gray-800 p-2 md:p-6 rounded-lg shadow-md text-center">
             <img
               src="icons/icon8.png"
-              alt="Web Security Icon"
+              alt="AI"
               class="w-12 h-12 mx-auto mb-4"
             />
             <h3 class="text-xl font-semibold">AI-Powered Development</h3>
@@ -266,7 +274,7 @@
         <!-- card section -->
         <div class="grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-8 mt-12">
           <!-- Card 1 -->
-          <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
+          <div class="bg-gray-800 p-3 md:p-6 rounded-lg shadow-md text-center">
             <img
               src="images/portfolio.jpg"
               alt=""
@@ -275,27 +283,27 @@
             <h3 class="text-xl font-semibold">Dynamic Portfolio</h3>
           </div>
           <!-- card 2 -->
-          <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
+          <div class="bg-gray-800 p-3 md:p-6 rounded-lg shadow-md text-center">
             <img src="images/i2.jpg" alt="" class="w-fit h-28 mx-auto mb-4" />
             <h3 class="text-xl font-semibold">ShopEase UI</h3>
           </div>
           <!-- card 3 -->
-          <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
+          <div class="bg-gray-800 p-3 md:p-6 rounded-lg shadow-md text-center">
             <img src="images/I3.jpg" alt="" class="w-fit h-28 mx-auto mb-4" />
             <h3 class="text-xl font-semibold">Travel Mate</h3>
           </div>
           <!-- card 4 -->
-          <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
+          <div class="bg-gray-800 p-3 md:p-6 rounded-lg shadow-md text-center">
             <img src="images/I4.jpg" alt="" class="w-fit h-28 mx-auto mb-4" />
             <h3 class="text-xl font-semibold">EduConnect</h3>
           </div>
           <!-- card 5 -->
-          <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
+          <div class="bg-gray-800 p-3 md:p-6 rounded-lg shadow-md text-center">
             <img src="images/I5.jpg" alt="" class="w-fit h-28 mx-auto mb-4" />
             <h3 class="text-xl font-semibold">FoodFiesta</h3>
           </div>
           <!-- card 6 -->
-          <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
+          <div class="bg-gray-800 p-3 md:p-6 rounded-lg shadow-md text-center">
             <img src="images/I6.jpg" alt="" class="w-fit h-28 mx-auto mb-4" />
             <h3 class="text-xl font-semibold">Evently</h3>
           </div>
