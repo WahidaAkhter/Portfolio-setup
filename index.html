@@ -28,10 +28,11 @@
     <!-- font end -->
     <title>Portfolio</title>
   </head>
-  <body class="container mx-auto bg-[#000000] text-white manrope-font">
-    <header>
-      <nav class="py-5 mx-5 flex justify-between md:pt-5 lg:py-8">
-        <div>
+  <body class="bg-[#000000] text-white manrope-font">
+    <header class="container mx-auto">
+      <!-- navbar start -->
+      <nav class="py-5 mx-5 flex justify-between items-center md:pt-5 lg:py-8">
+        <div class="logo">
           <h1 class="font-bold text-2xl">LOGO</h1>
         </div>
 
@@ -54,16 +55,17 @@
 
         <div class="menuItems hidden md:block">
           <ul class="flex gap-5 items-center">
-            <li>Home</li>
-            <li>About Me</li>
-            <li>Projects</li>
-            <li>Testimonials</li>
-            <li class="border rounded-3xl bg-[#E6AA32] text-black py-3 px-6">
+            <li class="font-normal text-[#FFFFFF]">Home</li>
+            <li class="font-normal text-[#FFFFFF]">About Me</li>
+            <li class="font-normal text-[#FFFFFF]">Projects</li>
+            <li class="font-normal text-[#FFFFFF]">Testimonials</li>
+            <li class="font-normal border rounded-3xl bg-[#E6AA32] text-black py-3 px-6">
               Download CV
             </li>
           </ul>
         </div>
       </nav>
+      <!-- navbar end -->
       <!-- invisible line -->
       <div class="w-full border border-gray-800"></div>
     </header>
@@ -74,19 +76,20 @@
       <section
         class="banner flex flex-col-reverse md:flex-row items-center justify-between mt-5 md:my-16 min-h-72 md:max-h-96 border border-violet-900"
       >
-        <div class="max-w-md px-3">
-          <h1 class="text-[#797C86]">Web Developer</h1>
+      <!-- description + tittle -->
+        <div class="max-w-lg px-3 gap-3">
+          <h1 class="text-[#797C86] font-medium">Web Developer</h1>
           <h1 class="montagu-slab-font text-5xl">
-            HI! This is <br />
-            <span class="text-[#E6AA32]">Zahid Hossain</span>
+            HI! THIS IS <br />
+            <span class="text-[#E6AA32]">ZAHID HOSSAIN</span>
           </h1>
-          <p class="text-[#797C86]">
+          <p class="text-[#797C86] font-medium">
             As a web designer with four years of experience, I specialize in
             creating visually appealing and user-friendly websites. My expertise
             includes responsive design, UI/UX principles, and collaborating with
             clients to bring their visions to life.
           </p>
-          <div class="buttons flex-row md:flex gap-2">
+          <div class="buttons flex-row md:flex gap-2 mt-5">
             <button
               class="border-hidden rounded-3xl bg-[#E6AA32] text-black py-3 px-6"
             >
@@ -113,22 +116,26 @@
             </div>
           </div>
         </div>
-        <div class="relative w-[400px] h-[488px] overflow-hidden mt-8">
+        <!-- description + tittle end-->
+
+         <!-- banner image  -->
+        <div class="relative w-[420px] h-[488px] overflow-hidden mt-8">
           <img class="w-full h-full object-cover" src="/boy.png" alt="" />
         </div>
+        <!-- banner image end -->
       </section>
       <!-- banner section end -->
 
       <!-- specialities section -->
       <section
-        class="my-specialities mt-10 px-2 md:mt-24 border border-dashed"
+        class="my-specialities mt-10 px-2 md:mt-24"
       >
         <!-- specialities -->
-        <div class=" text-center">
+        <div class=" text-center gap-2">
           <!-- Title -->
-          <h2 class="text-sm font-semibold text-gray-400">SPECIALTIES</h2>
+          <h2 class="text-sm font-semibold text-[#797C86]">SPECIALTIES</h2>
           <h1 class="text-3xl font-bold my-4">MY SPECIALTIES</h1>
-          <p class="text-gray-400 max-w-xl mx-auto">
+          <p class="text-[#797C86] font-normal max-w-md mx-auto">
             As a web designer with four years of experience, I specialize in
             creating visually appealing and user-friendly websites.
           </p>
@@ -136,101 +143,95 @@
         <!-- card section -->
         <div class="grid grid-cols-2 gap-5 md:grid-cols-4 md:gap-8 mt-12">
           <!-- Card 1 -->
-          <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+          <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center ">
             <img
-              src="icon1.png"
+              src="./icons/icon1.png"
               alt="Front-End Icon"
               class="w-12 h-12 mx-auto mb-4"
             />
             <h3 class="text-xl font-semibold">Front-End Development</h3>
             <p class="text-gray-400 mt-2">
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni corporis excepturi deserunt.
+               Frontend development builds the visual and interactive parts of websites using HTML, CSS, and JavaScript. 
             </p>
           </div>
           <!-- Card 2 -->
-          <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+          <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
             <img
-              src="icon2.png"
+              src="/icons/icon2.png"
               alt="Back-End Icon"
               class="w-12 h-12 mx-auto mb-4"
             />
             <h3 class="text-xl font-semibold">Back-End Development</h3>
             <p class="text-gray-400 mt-2">
-               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam repellendus nulla fugiat.
+               Backend development focuses on server-side programming, databases, and application logic.
             </p>
           </div>
           <!-- Card 3 -->
-          <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+          <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
             <img
-              src="icon3.png"
+              src="/icons/icon3.png"
               alt="Full-Stack Icon"
               class="w-12 h-12 mx-auto mb-4"
             />
             <h3 class="text-xl font-semibold">Full-Stack Development</h3>
             <p class="text-gray-400 mt-2">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint.
+             Full stack development involves both frontend and backend development. Full stack developers manage all layers of web development.
             </p>
           </div>
           <!-- Card 4 -->
-          <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+          <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
             <img
-              src="icon4.png"
+              src="icons/icon4.png"
               alt="Web Security Icon"
               class="w-12 h-12 mx-auto mb-4"
             />
             <h3 class="text-xl font-semibold">Web Application Security</h3>
             <p class="text-gray-400 mt-2">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint.
+              Web application security focuses on protecting web apps from threats like data breaches and attacks. 
+            </p>
+          </div>
+          <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
+            <img
+              src="icons/icon5.png"
+              alt="E-commerce Development icon"
+              class="w-12 h-12 mx-auto mb-4"
+            />
+            <h3 class="text-xl font-semibold">E-commerce Development</h3>
+            <p class="text-gray-400 mt-2">
+              E-commerce development involves creating online platforms for buying and selling products or services.
             </p>
           </div>
           <div class="bg-gray-800 p-6 rounded-lg shadow-md">
             <img
-              src="icon4.png"
-              alt="Web Security Icon"
+              src="icons/cloud.png"
+              alt="Cloud-Based Icon"
               class="w-12 h-12 mx-auto mb-4"
             />
-            <h3 class="text-xl font-semibold">Web Application Security</h3>
+            <h3 class="text-xl font-semibold">Cloud-Based Development</h3>
             <p class="text-gray-400 mt-2">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint.
+              Cloud-based development involves building applications that run on cloud platforms, leveraging services like storage, computing, and databases.
             </p>
           </div>
-          <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+          <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
             <img
-              src="icon4.png"
+              src="icons/icon7.png"
               alt="Web Security Icon"
               class="w-12 h-12 mx-auto mb-4"
             />
-            <h3 class="text-xl font-semibold">Web Application Security</h3>
+            <h3 class="text-xl font-semibold">Progressive Web Apps</h3>
             <p class="text-gray-400 mt-2">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint.
+              Progressive Web Apps (PWAs) are web applications that combine the best features of websites and native apps.
             </p>
           </div>
-          <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+          <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
             <img
-              src="icon4.png"
+              src="icons/icon8.png"
               alt="Web Security Icon"
               class="w-12 h-12 mx-auto mb-4"
             />
-            <h3 class="text-xl font-semibold">Web Application Security</h3>
+            <h3 class="text-xl font-semibold">AI-Powered Development</h3>
             <p class="text-gray-400 mt-2">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint.
-            </p>
-          </div>
-          <div class="bg-gray-800 p-6 rounded-lg shadow-md">
-            <img
-              src="icon4.png"
-              alt="Web Security Icon"
-              class="w-12 h-12 mx-auto mb-4"
-            />
-            <h3 class="text-xl font-semibold">Web Application Security</h3>
-            <p class="text-gray-400 mt-2">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint.
+              AI-powered development integrates artificial intelligence into applications to enhance functionality and automation.
             </p>
           </div>
         </div>
@@ -238,7 +239,7 @@
       <!-- specialities section end -->
 
       <!-- recent works section -->
-       <section class="recent-works mt-10 px-2 md:mt-24 border border-dashed">
+       <section class="recent-works mt-10 px-2 md:mt-24">
          <div class=" text-center">
           <!-- Title -->
           <h2 class="text-sm font-semibold text-gray-400">RECENT WORKS</h2>
@@ -251,94 +252,76 @@
         <!-- card section -->
         <div class="grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-8 mt-12">
           <!-- Card 1 -->
-          <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+          <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
             <img
-              src="icon1.png"
-              alt="Front-End Icon"
-              class="w-12 h-12 mx-auto mb-4"
+              src="images/portfolio.jpg"
+              alt=""
+              class="w-fit h-28 mx-auto mb-4"
             />
-            <h3 class="text-xl font-semibold">Front-End Development</h3>
-            <p class="text-gray-400 mt-2">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint.
-            </p>
+            <h3 class="text-xl font-semibold">Dynamic Portfolio</h3>
+            
           </div>
           <!-- card 2 -->
-           <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+           <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
             <img
-              src="icon1.png"
-              alt="Front-End Icon"
-              class="w-12 h-12 mx-auto mb-4"
+              src="images/i2.jpg"
+              alt=""
+              class="w-fit h-28 mx-auto mb-4"
             />
-            <h3 class="text-xl font-semibold">Front-End Development</h3>
-            <p class="text-gray-400 mt-2">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint.
-            </p>
+            <h3 class="text-xl font-semibold">ShopEase UI</h3>
+            
           </div>
           <!-- card 3 -->
-           <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+           <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
             <img
-              src="icon1.png"
-              alt="Front-End Icon"
-              class="w-12 h-12 mx-auto mb-4"
+              src="images/I3.jpg"
+              alt=""
+              class="w-fit h-28 mx-auto mb-4"
             />
-            <h3 class="text-xl font-semibold">Front-End Development</h3>
-            <p class="text-gray-400 mt-2">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint.
-            </p>
+            <h3 class="text-xl font-semibold">Travel Mate</h3>
+            
           </div>
           <!-- card 4 -->
-           <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+           <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
             <img
-              src="icon1.png"
-              alt="Front-End Icon"
-              class="w-12 h-12 mx-auto mb-4"
+              src="images/I4.jpg"
+              alt=""
+              class="w-fit h-28 mx-auto mb-4"
             />
-            <h3 class="text-xl font-semibold">Front-End Development</h3>
-            <p class="text-gray-400 mt-2">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint.
-            </p>
+            <h3 class="text-xl font-semibold">EduConnect</h3>
+            
           </div>
           <!-- card 5 -->
-           <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+           <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
             <img
-              src="icon1.png"
-              alt="Front-End Icon"
-              class="w-12 h-12 mx-auto mb-4"
+              src="images/I5.jpg"
+              alt=""
+              class="w-fit h-28 mx-auto mb-4"
             />
-            <h3 class="text-xl font-semibold">Front-End Development</h3>
-            <p class="text-gray-400 mt-2">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint.
-            </p>
+            <h3 class="text-xl font-semibold">FoodFiesta</h3>
+           
           </div>
           <!-- card 6 -->
-           <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+           <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
             <img
-              src="icon1.png"
-              alt="Front-End Icon"
-              class="w-12 h-12 mx-auto mb-4"
+              src="images/I6.jpg"
+              alt=""
+              class="w-fit h-28 mx-auto mb-4"
             />
-            <h3 class="text-xl font-semibold">Front-End Development</h3>
-            <p class="text-gray-400 mt-2">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint.
-            </p>
+            <h3 class="text-xl font-semibold">Evently</h3>
+            
           </div>
        </section>
        <!-- recent works section end -->
 
        <!-- my other services section -->
         <section
-        class="my-specialities mt-10 px-2 md:mt-24 border border-dashed">
-        <!-- specialities -->
+        class="my-services mt-10 px-2 md:mt-24">
+        <!-- services -->
         <div class=" text-center">
           <!-- Title -->
-          <h2 class="text-sm font-semibold text-gray-400">SPECIALTIES</h2>
-          <h1 class="text-3xl font-bold my-4">MY SPECIALTIES</h1>
+          <h2 class="text-sm font-semibold text-gray-400">SERVICES</h2>
+          <h1 class="text-3xl font-bold my-4">MY OTHER SERVICES</h1>
           <p class="text-gray-400 max-w-xl mx-auto">
             As a web designer with four years of experience, I specialize in
             creating visually appealing and user-friendly websites.
@@ -347,107 +330,67 @@
         <!-- card section -->
         <div class="grid grid-cols-2 gap-5 md:grid-cols-4 md:gap-8 mt-12">
           <!-- Card 1 -->
-          <div class="bg-gray-800 p-6 rounded-lg shadow-md">
-            <img
-              src="icon1.png"
-              alt="Front-End Icon"
-              class="w-12 h-12 mx-auto mb-4"
-            />
-            <h3 class="text-xl font-semibold">Front-End Development</h3>
+          <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
+            
+            <h3 class="text-xl font-semibold">Website Development</h3>
             <p class="text-gray-400 mt-2">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint.
+              Website development involves creating and maintaining websites, focusing on functionality, design, and user experience.
             </p>
           </div>
           <!-- Card 2 -->
-          <div class="bg-gray-800 p-6 rounded-lg shadow-md">
-            <img
-              src="icon2.png"
-              alt="Back-End Icon"
-              class="w-12 h-12 mx-auto mb-4"
-            />
-            <h3 class="text-xl font-semibold">Back-End Development</h3>
+          <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
+            
+            <h3 class="text-xl font-semibold">E-Commerce Development</h3>
             <p class="text-gray-400 mt-2">
-               minim mollit non desert ullamco est sit aliqua dolor do
-              amet sint.
+               development involves creating and maintaining websites, focusing on functionality, design, and user experience.
             </p>
           </div>
           <!-- Card 3 -->
           <div class="bg-gray-800 p-6 rounded-lg shadow-md">
-            <img
-              src="icon3.png"
-              alt="Full-Stack Icon"
-              class="w-12 h-12 mx-auto mb-4"
-            />
-            <h3 class="text-xl font-semibold">Full-Stack Development</h3>
+            
+            <h3 class="text-xl font-semibold">Web App Development</h3>
             <p class="text-gray-400 mt-2">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint.
+              development involves creating and maintaining websites, focusing on functionality, design, and user experience.
             </p>
           </div>
           <!-- Card 4 -->
-          <div class="bg-gray-800 p-6 rounded-lg shadow-md">
-            <img
-              src="icon4.png"
-              alt="Web Security Icon"
-              class="w-12 h-12 mx-auto mb-4"
-            />
-            <h3 class="text-xl font-semibold">Web Application Security</h3>
+          <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
+            
+            <h3 class="text-xl font-semibold"> API Dev. & Integration</h3>
             <p class="text-gray-400 mt-2">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint.
+              development involves creating and maintaining websites, focusing on functionality, design, and user experience.
             </p>
           </div>
           <!-- card 5 -->
-           <div class="bg-gray-800 p-6 rounded-lg shadow-md">
-            <img
-              src="icon1.png"
-              alt="Front-End Icon"
-              class="w-12 h-12 mx-auto mb-4"
-            />
-            <h3 class="text-xl font-semibold">Front-End Development</h3>
+           <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
+           
+            <h3 class="text-xl font-semibold">Cloud-Based Solutions</h3>
             <p class="text-gray-400 mt-2">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint.
+              development involves creating and maintaining websites, focusing on functionality, design, and user experience.
             </p>
           </div>
           <!-- card 6 -->
-           <div class="bg-gray-800 p-6 rounded-lg shadow-md">
-            <img
-              src="icon1.png"
-              alt="Front-End Icon"
-              class="w-12 h-12 mx-auto mb-4"
-            />
-            <h3 class="text-xl font-semibold">Front-End Development</h3>
+           <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
+           
+            <h3 class="text-xl font-semibold">Web Perform. Optimization</h3>
             <p class="text-gray-400 mt-2">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint.
+              development involves creating and maintaining websites, focusing on functionality, design, and user experience.
             </p>
           </div>
           <!-- card 7 -->
-           <div class="bg-gray-800 p-6 rounded-lg shadow-md">
-            <img
-              src="icon1.png"
-              alt="Front-End Icon"
-              class="w-12 h-12 mx-auto mb-4"
-            />
-            <h3 class="text-xl font-semibold">Front-End Development</h3>
+           <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
+            
+            <h3 class="text-xl font-semibold">(SEO) Services</h3>
             <p class="text-gray-400 mt-2">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint.
+              development involves creating and maintaining websites, focusing on functionality, design, and user experience.
             </p>
           </div>
           <!-- card 8 -->
-           <div class="bg-gray-800 p-6 rounded-lg shadow-md">
-            <img
-              src="icon1.png"
-              alt="Front-End Icon"
-              class="w-12 h-12 mx-auto mb-4"
-            />
-            <h3 class="text-xl font-semibold">Front-End Development</h3>
+           <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
+           
+            <h3 class="text-xl font-semibold">Website Maint. & Support</h3>
             <p class="text-gray-400 mt-2">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint.
+              development involves creating and maintaining websites, focusing on functionality, design, and user experience.
             </p>
           </div>
           
