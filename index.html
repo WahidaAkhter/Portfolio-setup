@@ -28,7 +28,9 @@
     <!-- font end -->
     <title>Portfolio</title>
   </head>
-  <body class="bg-[#000000] text-white manrope-font container mx-auto">
+  <body
+    class="bg-[#000000] text-white manrope-font px-[100px]"
+  >
     <header class="">
       <!-- navbar start -->
       <nav class="py-5 mx-5 flex justify-between items-center md:pt-5 lg:py-8">
@@ -59,7 +61,9 @@
             <li class="font-normal text-[#FFFFFF]">About Me</li>
             <li class="font-normal text-[#FFFFFF]">Projects</li>
             <li class="font-normal text-[#FFFFFF]">Testimonials</li>
-            <li class="font-normal border rounded-3xl bg-[#E6AA32] text-black py-3 px-6">
+            <li
+              class="font-normal border rounded-3xl bg-[#E6AA32] text-black py-3 px-6"
+            >
               Download CV
             </li>
           </ul>
@@ -70,13 +74,12 @@
       <div class="w-full border border-gray-800"></div>
     </header>
     <main>
-
       <!-- banner section -->
 
       <section
-        class="banner flex flex-col-reverse md:flex-row items-center justify-between mt-5 md:my-16 min-h-72 md:max-h-96 border border-violet-900"
+        class="banner flex flex-col-reverse md:flex-row items-center justify-between mt-5 md:my-16 min-h-72 md:max-h-96"
       >
-      <!-- description + tittle -->
+        <!-- description + tittle -->
         <div class="max-w-lg px-3 gap-3">
           <h1 class="text-[#797C86] font-medium">Web Developer</h1>
           <h1 class="montagu-slab-font text-5xl">
@@ -118,20 +121,22 @@
         </div>
         <!-- description + tittle end-->
 
-         <!-- banner image  -->
-        <div class="relative w-[420px] h-[488px] overflow-hidden mt-8">
-          <img class="w-full h-full object-cover" src="/boy.png" alt="" />
+        <!-- banner image  -->
+        <div class="relative z-0 w-[488px] h-[488px] overflow-hidden mb-32">
+          <!-- shadow div -->
+          <div
+            class="absolute bottom-0 left-0 bg-gradient-to-r from-black to-[#2c2c2d] h-[343px] w-[488px] rounded-l-full"
+          ></div>
+          <img class="absolute bottom-0 left-0 w-full h-[488px] pr-28" src="/boy.png" alt="" />
         </div>
         <!-- banner image end -->
       </section>
       <!-- banner section end -->
 
       <!-- specialities section -->
-      <section
-        class="my-specialities mt-10 px-2 md:mt-24"
-      >
+      <section class="my-specialities mt-10 px-2 md:mt-24">
         <!-- specialities -->
-        <div class=" text-center gap-2">
+        <div class="text-center gap-2">
           <!-- Title -->
           <h2 class="text-sm font-semibold text-[#797C86]">SPECIALTIES</h2>
           <h1 class="text-3xl font-bold my-4">MY SPECIALTIES</h1>
@@ -143,7 +148,7 @@
         <!-- card section -->
         <div class="grid grid-cols-2 gap-5 md:grid-cols-4 md:gap-8 mt-12">
           <!-- Card 1 -->
-          <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center ">
+          <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
             <img
               src="./icons/icon1.png"
               alt="Front-End Icon"
@@ -151,7 +156,8 @@
             />
             <h3 class="text-xl font-semibold">Front-End Development</h3>
             <p class="text-gray-400 mt-2">
-               Frontend development builds the visual and interactive parts of websites using HTML, CSS, and JavaScript. 
+              Frontend development builds the visual and interactive parts of
+              websites using HTML, CSS, and JavaScript.
             </p>
           </div>
           <!-- Card 2 -->
@@ -163,7 +169,8 @@
             />
             <h3 class="text-xl font-semibold">Back-End Development</h3>
             <p class="text-gray-400 mt-2">
-               Backend development focuses on server-side programming, databases, and application logic.
+              Backend development focuses on server-side programming, databases,
+              and application logic.
             </p>
           </div>
           <!-- Card 3 -->
@@ -175,7 +182,9 @@
             />
             <h3 class="text-xl font-semibold">Full-Stack Development</h3>
             <p class="text-gray-400 mt-2">
-             Full stack development involves both frontend and backend development. Full stack developers manage all layers of web development.
+              Full stack development involves both frontend and backend
+              development. Full stack developers manage all layers of web
+              development.
             </p>
           </div>
           <!-- Card 4 -->
@@ -187,7 +196,8 @@
             />
             <h3 class="text-xl font-semibold">Web Application Security</h3>
             <p class="text-gray-400 mt-2">
-              Web application security focuses on protecting web apps from threats like data breaches and attacks. 
+              Web application security focuses on protecting web apps from
+              threats like data breaches and attacks.
             </p>
           </div>
           <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
@@ -198,10 +208,11 @@
             />
             <h3 class="text-xl font-semibold">E-commerce Development</h3>
             <p class="text-gray-400 mt-2">
-              E-commerce development involves creating online platforms for buying and selling products or services.
+              E-commerce development involves creating online platforms for
+              buying and selling products or services.
             </p>
           </div>
-          <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+          <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
             <img
               src="icons/cloud.png"
               alt="Cloud-Based Icon"
@@ -209,7 +220,9 @@
             />
             <h3 class="text-xl font-semibold">Cloud-Based Development</h3>
             <p class="text-gray-400 mt-2">
-              Cloud-based development involves building applications that run on cloud platforms, leveraging services like storage, computing, and databases.
+              Cloud-based development involves building applications that run on
+              cloud platforms, leveraging services like storage, computing, and
+              databases.
             </p>
           </div>
           <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
@@ -220,7 +233,8 @@
             />
             <h3 class="text-xl font-semibold">Progressive Web Apps</h3>
             <p class="text-gray-400 mt-2">
-              Progressive Web Apps (PWAs) are web applications that combine the best features of websites and native apps.
+              Progressive Web Apps (PWAs) are web applications that combine the
+              best features of websites and native apps.
             </p>
           </div>
           <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
@@ -231,7 +245,8 @@
             />
             <h3 class="text-xl font-semibold">AI-Powered Development</h3>
             <p class="text-gray-400 mt-2">
-              AI-powered development integrates artificial intelligence into applications to enhance functionality and automation.
+              AI-powered development integrates artificial intelligence into
+              applications to enhance functionality and automation.
             </p>
           </div>
         </div>
@@ -239,9 +254,8 @@
       <!-- specialities section end -->
 
       <!-- recent works section -->
-        <section class=" mt-10 px-2 md:mt-24">
-          <div class=" text-center">
-          <!-- Title -->
+      <section class="mt-10 px-2 md:mt-24">
+        <div class="text-center">
           <h2 class="text-sm font-semibold text-gray-400">RECENT WORKS</h2>
           <h1 class="text-3xl font-bold my-4">MY RECENT WORKS</h1>
           <p class="text-gray-400 max-w-xl mx-auto">
@@ -259,65 +273,39 @@
               class="w-fit h-28 mx-auto mb-4"
             />
             <h3 class="text-xl font-semibold">Dynamic Portfolio</h3>
-            
           </div>
           <!-- card 2 -->
-           <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
-            <img
-              src="images/i2.jpg"
-              alt=""
-              class="w-fit h-28 mx-auto mb-4"
-            />
+          <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
+            <img src="images/i2.jpg" alt="" class="w-fit h-28 mx-auto mb-4" />
             <h3 class="text-xl font-semibold">ShopEase UI</h3>
           </div>
           <!-- card 3 -->
-           <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
-            <img
-              src="images/I3.jpg"
-              alt=""
-              class="w-fit h-28 mx-auto mb-4"
-            />
+          <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
+            <img src="images/I3.jpg" alt="" class="w-fit h-28 mx-auto mb-4" />
             <h3 class="text-xl font-semibold">Travel Mate</h3>
-            
           </div>
           <!-- card 4 -->
-           <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
-            <img
-              src="images/I4.jpg"
-              alt=""
-              class="w-fit h-28 mx-auto mb-4"
-            />
+          <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
+            <img src="images/I4.jpg" alt="" class="w-fit h-28 mx-auto mb-4" />
             <h3 class="text-xl font-semibold">EduConnect</h3>
-            
           </div>
           <!-- card 5 -->
-           <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
-            <img
-              src="images/I5.jpg"
-              alt=""
-              class="w-fit h-28 mx-auto mb-4"
-            />
+          <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
+            <img src="images/I5.jpg" alt="" class="w-fit h-28 mx-auto mb-4" />
             <h3 class="text-xl font-semibold">FoodFiesta</h3>
-           
           </div>
           <!-- card 6 -->
-           <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
-            <img
-              src="images/I6.jpg"
-              alt=""
-              class="w-fit h-28 mx-auto mb-4"
-            />
+          <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
+            <img src="images/I6.jpg" alt="" class="w-fit h-28 mx-auto mb-4" />
             <h3 class="text-xl font-semibold">Evently</h3>
-            
           </div>
-        </section>
-       <!-- recent works section end -->
+        </div>
+      </section>
+      <!-- recent works section end -->
 
-       <!-- my other services section -->
-        <section
-        class=" mt-10 px-2 md:mt-24">
-        
-        <div class=" text-center">
+      <!-- my other services section -->
+      <section class="mt-10 px-2 md:mt-24">
+        <div class="text-center">
           <!-- Title -->
           <h2 class="text-sm font-semibold text-gray-400">SERVICES</h2>
           <h1 class="text-3xl font-bold my-4">MY OTHER SERVICES</h1>
@@ -330,156 +318,219 @@
         <div class="grid grid-cols-2 gap-5 md:grid-cols-4 md:gap-8 mt-12">
           <!-- Card 1 -->
           <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
-            
             <h3 class="text-xl font-semibold">Website Development</h3>
             <p class="text-gray-400 mt-2">
-              Website development involves creating and maintaining websites, focusing on functionality, design, and user experience.
+              Website development involves creating and maintaining websites,
+              focusing on functionality, design, and user experience.
             </p>
           </div>
           <!-- Card 2 -->
           <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
-            
             <h3 class="text-xl font-semibold">E-Commerce Development</h3>
             <p class="text-gray-400 mt-2">
-               development involves creating and maintaining websites, focusing on functionality, design, and user experience.
+              development involves creating and maintaining websites, focusing
+              on functionality, design, and user experience.
             </p>
           </div>
           <!-- Card 3 -->
           <div class="bg-gray-800 p-6 rounded-lg shadow-md">
-            
             <h3 class="text-xl font-semibold">Web App Development</h3>
             <p class="text-gray-400 mt-2">
-              development involves creating and maintaining websites, focusing on functionality, design, and user experience.
+              development involves creating and maintaining websites, focusing
+              on functionality, design, and user experience.
             </p>
           </div>
           <!-- Card 4 -->
           <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
-            
-            <h3 class="text-xl font-semibold"> API Dev. & Integration</h3>
+            <h3 class="text-xl font-semibold">API Dev. & Integration</h3>
             <p class="text-gray-400 mt-2">
-              development involves creating and maintaining websites, focusing on functionality, design, and user experience.
+              development involves creating and maintaining websites, focusing
+              on functionality, design, and user experience.
             </p>
           </div>
           <!-- card 5 -->
-           <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
-           
+          <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
             <h3 class="text-xl font-semibold">Cloud-Based Solutions</h3>
             <p class="text-gray-400 mt-2">
-              development involves creating and maintaining websites, focusing on functionality, design, and user experience.
+              development involves creating and maintaining websites, focusing
+              on functionality, design, and user experience.
             </p>
           </div>
           <!-- card 6 -->
-           <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
-           
+          <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
             <h3 class="text-xl font-semibold">Web Perform. Optimization</h3>
             <p class="text-gray-400 mt-2">
-              development involves creating and maintaining websites, focusing on functionality, design, and user experience.
+              development involves creating and maintaining websites, focusing
+              on functionality, design, and user experience.
             </p>
           </div>
           <!-- card 7 -->
-           <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
-            
+          <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
             <h3 class="text-xl font-semibold">(SEO) Services</h3>
             <p class="text-gray-400 mt-2">
-              development involves creating and maintaining websites, focusing on functionality, design, and user experience.
+              development involves creating and maintaining websites, focusing
+              on functionality, design, and user experience.
             </p>
           </div>
           <!-- card 8 -->
-           <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
-           
+          <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
             <h3 class="text-xl font-semibold">Website Maint. & Support</h3>
             <p class="text-gray-400 mt-2">
-              development involves creating and maintaining websites, focusing on functionality, design, and user experience.
+              development involves creating and maintaining websites, focusing
+              on functionality, design, and user experience.
             </p>
           </div>
-          
         </div>
       </section>
-        <!-- my other services section end -->
-         <!-- frequently asked question -->
-          <section class="faq mt-10 md:mt-24">
-            <div class="heading gap-2 mb-8 ">
-             <h1 class="text-[#797C86]">FAQ'S</h1>
-             <h1 class="text-4xl">Frequently Asked Questions</h1>
+      <!-- my other services section end -->
+      <!-- frequently asked question -->
+      <section class="faq mt-10 md:mt-24">
+        <div class="heading gap-2 mb-8">
+          <h1 class="text-[#797C86]">FAQ'S</h1>
+          <h1 class="text-4xl">Frequently Asked Questions</h1>
+        </div>
+        <!-- invisible line -->
+        <div class="w-full border border-gray-800 my-8"></div>
+
+        <div class="accordion px-14 md:px-10">
+          <div class="flex justify-between">
+            <div class="1 mb-10">
+              <h1 class="font-normal text-[#f5f6f7] mb-5">
+                What areas of web development do you focus on?
+              </h1>
+              <p class="text-[#797C86] font-normal text-sm">
+                I specialize in web development, creating websites that deliver
+                unique user experiences.
+              </p>
             </div>
-            <!-- invisible line -->
-           <div class="w-full border border-gray-800 my-8"></div>
-           
-           <div class="accordion px-14   md:px-10">
-             <div class="flex justify-between">
-              <div class="1 mb-10">
-                <h1 class="font-normal text-[#f5f6f7] mb-5">What areas of web development do you focus on?</h1>
-                <p class="text-[#797C86] font-normal text-sm">I specialize in web development, creating websites that deliver unique user experiences.</p>
-              </div>
-              <div class="icon">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />
-                </svg>
-
-              </div>
-            </div>
-            <!-- invisible border line -->
-      <div class="w-full border border-gray-800 my-8"></div>
-             <div class="flex justify-between">
-              <div class="2 mb-10">
-                <h1 class="font-normal text-[#f5f6f7] mb-5">How can I schedule a web development consultation with you?</h1>
-              </div>
-              <div class="icon">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-              <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
-              </svg>
-
-
-              </div>
-            </div>
-            <!-- invisible border line -->
-      <div class="w-full border border-gray-800 my-8"></div>
-             <div class="flex justify-between">
-              <div class="2 mb-10">
-                <h1 class="font-normal text-[#f5f6f7] mb-5">Can I choose a specific platform for my website?</h1>
-              </div>
-              <div class="icon">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-              <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
-              </svg>
-              </div>
-              </div>
-              <!-- invisible border line -->
-      <div class="w-full border border-gray-800 my-8"></div>
-             <div class="flex justify-between">
-              <div class="2 mb-10">
-                <h1 class="font-normal text-[#f5f6f7] mb-5">What tools and technologies do you use for web development?</h1>
-              </div>
-              <div class="icon">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-              <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
-              </svg>
-
-
-              </div>
-            </div>
-            <!-- invisible border line -->
-      <div class="w-full border border-gray-800 my-8"></div>
-             <div class="flex justify-between ">
-              <div class="2 mb-10">
-                <h1 class="font-normal text-[#f5f6f7] mb-5">Can I choose a specific platform for my website?</h1>
-              </div>
-              <div class="icon ">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-              <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 15.75 7.5-7.5 7.5 7.5"
+                />
               </svg>
             </div>
+          </div>
+          <!-- invisible border line -->
+          <div class="w-full border border-gray-800 my-8"></div>
+          <div class="flex justify-between">
+            <div class="2 mb-10">
+              <h1 class="font-normal text-[#f5f6f7] mb-5">
+                How can I schedule a web development consultation with you?
+              </h1>
             </div>
-           </div>
-            </section>
-          <!--frequently asked question end  -->
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                />
+              </svg>
+            </div>
+          </div>
+          <!-- invisible border line -->
+          <div class="w-full border border-gray-800 my-8"></div>
+          <div class="flex justify-between">
+            <div class="2 mb-10">
+              <h1 class="font-normal text-[#f5f6f7] mb-5">
+                Can I choose a specific platform for my website?
+              </h1>
+            </div>
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                />
+              </svg>
+            </div>
+          </div>
+          <!-- invisible border line -->
+          <div class="w-full border border-gray-800 my-8"></div>
+          <div class="flex justify-between">
+            <div class="2 mb-10">
+              <h1 class="font-normal text-[#f5f6f7] mb-5">
+                What tools and technologies do you use for web development?
+              </h1>
+            </div>
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                />
+              </svg>
+            </div>
+          </div>
+          <!-- invisible border line -->
+          <div class="w-full border border-gray-800 my-8"></div>
+          <div class="flex justify-between">
+            <div class="2 mb-10">
+              <h1 class="font-normal text-[#f5f6f7] mb-5">
+                Can I choose a specific platform for my website?
+              </h1>
+            </div>
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--frequently asked question end  -->
     </main>
 
     <!-- invisible border line -->
-      <div class="w-full border border-gray-800 my-8"></div>
+    <div class="w-full border border-gray-800 my-8"></div>
     <footer class="mt-5 md:mt-10">
-
-      <section class="grid grid-cols-1 px-28 gap-5 flex justify-evenly md:grid-cols-5 py-10">
+      <section
+        class="grid grid-cols-1 px-28 gap-5 justify-evenly md:grid-cols-5 py-10"
+      >
         <div class="1">
           <ul>
             <li class="text-[#797C86] font-normal">SOLUTIONS</li>
@@ -487,7 +538,6 @@
             <li>FLAXWAY</li>
             <li>FABLES</li>
             <li>POWERCORE</li>
-
           </ul>
         </div>
         <div class="2">
@@ -497,7 +547,6 @@
             <li>FLAXWAY</li>
             <li>FABLES</li>
             <li>POWERCORE</li>
-
           </ul>
         </div>
         <div class="3">
@@ -507,7 +556,6 @@
             <li>FLAXWAY</li>
             <li>FABLES</li>
             <li>POWERCORE</li>
-
           </ul>
         </div>
         <div class="4">
@@ -517,7 +565,6 @@
             <li>FLAXWAY</li>
             <li>FABLES</li>
             <li>POWERCORE</li>
-
           </ul>
         </div>
         <div class="5 font-normal">
@@ -542,7 +589,6 @@
           <h1 class="text-[#797C86]">© 2024 All rights reserved.</h1>
         </div>
       </div>
-
     </footer>
   </body>
 </html>
